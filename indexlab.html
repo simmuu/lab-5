@@ -1,0 +1,117 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+
+        .jo-bar-item
+        {
+            padding: 10px 50px;
+        }
+        .f1
+        {
+            border: 2px solid darkred;
+            border-style: dotted;
+            text-align: center;
+            background: #93ec94;
+        }
+        .sidebar
+        {
+            background: #fda07e;
+            width: 33%;
+        }
+        .main{
+            background: #faf0e7;
+            padding: 10px 2px;
+        }
+        header, footer
+        {
+            background: #b1e0e5;
+        }
+        header
+        {
+            padding-bottom: 100px;
+        }
+        footer
+        {
+            padding-bottom: 50px;
+        }
+        /* Mobile*/
+        /* For 640 Resolution */
+        @media only screen
+        and (min-device-width: 360px)
+        and (max-device-width: 640px) {
+            button {
+                width: 100%;
+            }
+        }
+
+        /* Tablets */
+        /* For 1024 Resolution */
+        @media only screen
+        and (min-device-width: 768px)
+        and (max-device-width: 1024px)
+        and (orientation: portrait)
+        and (-webkit-min-device-pixel-ratio: 2) {
+        }
+    </style>
+
+</head>
+
+<body>
+
+<header>
+    <h2>Header</h2>
+</header>
+<div class="jo-top jo-hide-large jo-hide-medium" id="myNavbar">
+    <div class="jo-bar ">
+        <div class="row">
+            <div class="col-md-3 col-12 text-center"><a href="#" class="jo-bar-item" >HOME</a></div>
+            <div class="col-md-3 col-12 text-center"> <a href="#photos" class="jo-bar-item jo-button" >PHOTOS</a></div>
+            <div class="col-md-3 col-12 text-center"> <a href="#contact" class="jo-bar-item jo-button" >CONTACT</a></div>
+            <div class="col-md-3 col-12 text-center"> <a href="#login" class="jo-bar-item jo-button" >Login</a></div>
+        </div>
+    </div>
+</div>
+<div class="main">
+    <div class="row">
+        <div class="col-md-8 col-sm-12">
+            <div class="row mt-5 mb-5">
+                <div class="col-md-4 col-12">
+                    <div class="f1">
+                        <h3>Feature 1</h3>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12">
+                    <div class="f1">
+                        <h3>Feature 1</h3>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12">
+                    <div class="f1">
+                        <h3>Feature 1</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-12 sidebar">
+<h3>Sidebar</h3>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="">
+        <h3>footer </h3>
+    </div>
+</footer>
+</body>
+</html>
